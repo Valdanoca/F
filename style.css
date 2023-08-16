@@ -143,10 +143,13 @@ height: 150px;
 
    @media(max-width:750px){
  .cabecalho{
-  
 background-color: chartreuse;
    }
    }
   
+.rodape{
+  background-color: black;
+  color: white;
+}
   
   
