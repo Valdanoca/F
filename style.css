@@ -140,8 +140,13 @@ height: 150px;
     color: white;
     border-radius: 4px;
    }
+
+   @media(max-width:750px){
+ .cabecalho{
   
-  
+background-color: chartreuse;
+   }
+   }
   
   
   
