@@ -180,3 +180,9 @@ list-style: none;
 .titulo2{
   font-size: 40px;
 }
+@media(max-width:750px){
+  .total{
+ background-color: chartreuse;   
+ flex-direction: column;
+    }
+   }
