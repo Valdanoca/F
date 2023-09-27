@@ -57,7 +57,7 @@
        border-radius: 50%; 
        margin: 5px; 
        width: 150px;
-       height: 150px;
+       height: 15  0px;
       
      }
      .img1{
@@ -94,8 +94,8 @@
         }
 
   .bara{
-     width: 8px;  
-      height: 170px;
+     width: 5px;
+      height: 245px;
        border: 2px;
         background-color: black;
         border-radius: 10px;
@@ -103,11 +103,10 @@
      margin-top: 0px;
     }
 
-
     /* assunto debaixo sobre projetos elemento pai*/
   .total{
-    background-color: hsl(0, 70%, 41%);
-     padding: 30px 10px;
+     background-color: hsl(0, 18%, 82%);
+      padding: 30px 10px;
     }
 
   .card{
@@ -116,10 +115,9 @@
      gap: 20px ;  
    }
 
-
-  .cab{
-    font-size: 40px;
-     }
+   .cab{
+     font-size: 40px;
+      }
 
    .projeto{
       background-color: white;
@@ -133,60 +131,71 @@
   .pro1{
     width: 140px;
     height: 50px;
-    border: 1px solid #e02222; 
+    border: 1px solid #f2dede; 
     border-radius: 10%; 
     margin-left: 25px;
     font: normal normal bold 21px/28px Segoe UI;
    }
 
     .meu{
-      background-color: #06e706;
-      border-radius: 10%; 
-      margin: 5px;
-    }
- 
-
-
-
-
-
-
+       background-color: #06e706;
+       border-radius: 10%; 
+       margin: 5px;
+     }
 
    .rodape{
       color: white; 
-       background-color: black;
+       background-color: rgb(27, 18, 18);
         display: flex;
-         padding: 500px;
-          gap: 30px;
-        line-height: 25px;
-      }
+         align-items: center;
+         justify-content: center;
+        padding: 50px;
+       gap: 60px;
+     line-height: 25px;
+   }
 
-   .formulario{
-     line-height: 1px;
-      }
+    .titulo2{ 
+      padding: 10px;
+       }
 
-   .mini_imagem{
-     text-decoration: none;
-      }
-  
-    .mini_imagem li{
-     list-style: none;
-      }
-  
-   .mini_imagem li a{
-     text-decoration: none;
-      }
-   .mini_imagem  ul{
-     display: flex;
-     gap: 15px;
-      }
-   .titulo2{
-     font-size: 40px;
-      }
+    .mini_imagem{
+      background-color: rgb(15, 189, 59);
+      border-radius: 5px;
+       padding: 10px;
+       margin-top: 15px;
+     }
+ 
+     .links:hover  { 
+      color: #de5b04;
+      font-size: 17px;
+       }
+
+       .cabeca a:hover{
+        color: #06e332;
+         }
+
+         .mini_imagem{
+          text-decoration: none;
+           }
+     
+        .mini_imagem li{
+         list-style: none;
+           }
+     
+        .mini_imagem li a{
+          text-decoration: none;
+           }
+        .mini_imagem  ul{
+          display: flex;
+           gap: 15px;
+         }
+
+     .formulario{
+       line-height: 20px;
+        }
 
 
-
-
+      /* Parte abaixo é sobre a responsividade  */
 
 @media(max-width:750px){
   .cabecalho{
